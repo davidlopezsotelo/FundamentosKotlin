@@ -6,13 +6,11 @@ fun main (){
 
     newTopic("Hola, kotlin")
 
-
 }
-
 // funcion que recibe un string por parametro llamado topic
 
 fun newTopic(topic:String){
 
     //imprime en consola lo que le pasemos al parametro mediante la funcion topic
-    println(topic)
+    println ("\n ==================== $topic ===================")
 }
